@@ -31,7 +31,3 @@ verdict:
 ## Serving
 
 Warm, or cold from the fridge. Keeps for 2 days.
-
-## Notes
-
-Rubbery? Add a splash of milk to the eggs next time.
