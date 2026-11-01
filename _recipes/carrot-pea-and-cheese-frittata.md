@@ -5,7 +5,6 @@ added: 2026-11-01
 time: About 35 min
 oven: 180°C (160°C fan)
 makes: One 20cm tin
-source: Gemini, from what we had in
 rating: 4
 verdict: Pretty good. Went down well.
 ---

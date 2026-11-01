@@ -18,7 +18,6 @@ added: YYYY-MM-DD
 time: About 35 min
 oven: 180°C (160°C fan)
 makes: One tin, cut into fingers
-source: Where it came from
 rating:
 verdict:
 ---

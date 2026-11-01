@@ -285,14 +285,6 @@ h1, h2 {
   opacity: .65;
 }
 
-.source {
-  margin: 3rem 0 0;
-  padding-top: 1rem;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: .85rem;
-}
-
 @media (min-width: 40rem) {
   body { padding-top: 3rem; }
   .masthead h1 { font-size: 3.2rem; }
