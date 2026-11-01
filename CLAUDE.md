@@ -12,7 +12,7 @@ Create `_recipes/<slug>.md`. Make the slug from the title, lower case with hyphe
 
 ```markdown
 ---
-title: Savoury Cake Tin Bake
+title: Carrot, Pea and Cheese Frittata
 summary: One line on what it is.
 added: YYYY-MM-DD
 time: About 35 min
@@ -46,7 +46,7 @@ Optional extra sections go after Method.
 
 ## Record a rating
 
-Set `rating:` to a whole number from 1 to 5. Put the owner's one-line verdict after `verdict:`, in their words with a light tidy. If they changed something while cooking, add it to a `## Notes` section at the end of the recipe.
+Set `rating:` to a whole number from 1 to 5. Put the owner's one-line verdict after `verdict:`, in their words with a light tidy. If they changed something while cooking, update the recipe to match what they did.
 
 ## Bring up a recipe
 

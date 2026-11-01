@@ -19,8 +19,8 @@ Open the site in Chrome, tap the **⋮** menu, then tap **Add to Home screen**. 
 Start a Claude Code session on this repo and ask in plain words. For example:
 
 - "Add this recipe", with a screenshot or the text pasted in.
-- "Rate the cake tin bake 4 out of 5. He ate it all but picked out the peas."
-- "Bring up the cake tin bake."
+- "Rate the frittata 4 out of 5. He ate it all but picked out the peas."
+- "Bring up the frittata."
 
 Claude edits the files in `_recipes/` and pushes to `main`, and the site updates on its own.
 
