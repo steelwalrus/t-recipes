@@ -1,6 +1,6 @@
 ---
 title: Carrot, Pea and Cheese Frittata
-summary: Baked in a cake tin and cut into fingers.
+summary: Baked in a cake tin.
 added: 2026-11-01
 time: About 35 min
 oven: 180°C (160°C fan)
@@ -26,7 +26,7 @@ verdict: Pretty good. Went down well.
 3. Whisk the eggs and flour until smooth.
 4. Stir in the cheese, carrot and peas.
 5. Pour into the tin. Bake for 25 minutes, until a knife in the middle comes out clean.
-6. Cool for a few minutes, turn out and cut into fingers.
+6. Cool for a few minutes, turn out and slice.
 
 ## Serving
 
