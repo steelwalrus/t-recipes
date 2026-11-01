@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="recipe">
+  <a class="back" href="{{ '/' | relative_url }}">All recipes</a>
+  <h1>{{ page.title }}</h1>
+  <p class="summary">{{ page.summary }}</p>
+
+  {% if page.time or page.oven or page.makes %}
+  <dl class="stats">
+    {% if page.time %}<div><dt>Time</dt><dd>{{ page.time }}</dd></div>{% endif %}
+    {% if page.oven %}<div><dt>Oven</dt><dd>{{ page.oven }}</dd></div>{% endif %}
+    {% if page.makes %}<div><dt>Makes</dt><dd>{{ page.makes }}</dd></div>{% endif %}
+  </dl>
+  {% endif %}
+
+  <button class="wake" type="button" role="switch" aria-checked="false" data-wake hidden>
+    <span class="track" aria-hidden="true"></span>Keep screen on
+  </button>
+
+  <section class="rating{% unless page.rating %} is-empty{% endunless %}">
+    {% if page.rating %}
+      {% include stars.html rating=page.rating %}
+      {% if page.verdict %}<p class="verdict">{{ page.verdict }}</p>{% endif %}
+    {% else %}
+      <p class="unrated">Not rated yet</p>
+    {% endif %}
+  </section>
+
+  <div class="body">
+    {{ content }}
+  </div>
+
+  {% if page.source %}<p class="source">Source: {{ page.source }}</p>{% endif %}
+</article>

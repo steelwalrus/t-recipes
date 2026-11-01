@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<header class="masthead">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+</header>
+
+<ul class="cards">
+  {% assign recipes = site.recipes | sort: "added" | reverse %}
+  {% for recipe in recipes %}
+  <li>
+    <a class="card" href="{{ recipe.url | relative_url }}">
+      <h2>{{ recipe.title }}</h2>
+      <p>{{ recipe.summary }}</p>
+      <div class="meta">
+        {% if recipe.time %}<span>{{ recipe.time }}</span>{% endif %}
+        {% if recipe.rating %}
+          {% include stars.html rating=recipe.rating %}
+        {% else %}
+          <span class="tag">Not tried yet</span>
+        {% endif %}
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

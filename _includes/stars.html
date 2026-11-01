@@ -1,0 +1,1 @@
+<span class="stars" role="img" aria-label="{{ include.rating }} out of 5">{% for i in (1..5) %}<span{% if i <= include.rating %} class="on"{% endif %} aria-hidden="true">★</span>{% endfor %}</span>

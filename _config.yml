@@ -1,0 +1,32 @@
+title: Little Plates
+description: Recipes we've made at home, and how they went.
+baseurl: /t-recipes
+lang: en-GB
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Keeps a recipe visible even if its "added" date is ahead of the build server's clock.
+future: true
+
+collections:
+  recipes:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: recipe
+
+exclude:
+  - README.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
