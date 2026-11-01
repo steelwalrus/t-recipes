@@ -41,7 +41,8 @@ Optional extra sections go after Method.
 - Leave `time`, `oven` or `makes` blank when they do not apply. The page hides blank ones.
 - The owner improvises from what is in the house. Use the ingredients they say they have.
 - Keep the quantities and timings from the source. Do not invent ones the source does not give.
-- Rewrite pasted recipes into plain British English. Use short sentences and no emoji or exclamation marks. Leave out words like "delicious", "enjoy" and "whip up".
+- Keep it punchy. Short steps, no reasons why, no safety or choking warnings, no change history in the recipe. The owner asked for this on 2026-11-01.
+- Rewrite pasted recipes into plain British English with no emoji or exclamation marks. Leave out words like "delicious", "enjoy" and "whip up".
 
 ## Record a rating
 
